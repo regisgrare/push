@@ -8,7 +8,7 @@ const vapidKeys = {
 };
 
 webpush.setVapidDetails(
-  "mailto: regisgrare@hotmail.fr",
+  "mailto:regisgrare56@gmail.com",
   vapidKeys.publicKey,
   vapidKeys.privateKey
 );
@@ -16,12 +16,12 @@ webpush.setVapidDetails(
 // This is the same output of calling JSON.stringify on a PushSubscription
 const pushSubscription = {
   endpoint:
-    "https://fcm.googleapis.com/fcm/send/eLPPV9H4Xqs:APA91bHHVcq1nbZK7EjF-BWbmctBxowB6ct5K1VJyOqliGQgambXTWw7p_cdCYoN_AX0jBnnQ9XwIC8-f7b6QbyfePHC8NZ16qc29vO4mkoFUAevoU_clWXy0cU8BWt4pd5V6a7FgLLH",
+    "https://fcm.googleapis.com/fcm/send/d4d6WvAkDZU:APA91bFvMA8K-wWq6VwkA5n8G9HeNvNU_1RBD04d8AXogUlQQmE8iqga19vJt34EhpLfsSYwN0DA5F-QGKvQS3nPqB0Y5Ayt3MnShgTplXNplLpG_rMDzHloQfM_d2y54UINmsMsWXgV",
   expirationTime: null,
   keys: {
     p256dh:
-      "BNiYSNWGcTdxek37qzP1ZMQVRnJaDImz-DirIGe4cbty-KBc0TX2iyoDky34KXvCfxZbIsfKBmP3Cylp2jBQYaU",
-    auth: "QyreTnARIE8JK4YbfxsJ7Q",
+      "BKV5ad1pLvQp6KzWlu8VJEJGN_n7REm2iTh10QCqxgiD2IdMe6FLyv3uVHe4Zze0cZ0SpyeK1XFmQwAtP7FGBio",
+    auth: "UqTTk17HPW4sDPi1JDkoPA",
   },
 };
 
