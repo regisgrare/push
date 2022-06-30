@@ -1,7 +1,7 @@
 self.addEventListener("push", function (e) {
   var options = {
     body: "Push généré ! ",
-    icon: "images/example.png",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
     vibrate: [100, 50, 100],
     data: {
       dateOfArrival: Date.now(),
@@ -11,12 +11,12 @@ self.addEventListener("push", function (e) {
       {
         action: "explore",
         title: "Explore this new world",
-        icon: "images/checkmark.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
       },
       {
         action: "close",
         title: "Close",
-        icon: "images/xmark.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
       },
     ],
   };
