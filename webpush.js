@@ -8,7 +8,7 @@ const vapidKeys = {
 };
 
 webpush.setVapidDetails(
-  "https://musical-palmier-103be5.netlify.app/",
+  "mailto: regisgrare@hotmail.fr",
   vapidKeys.publicKey,
   vapidKeys.privateKey
 );
@@ -16,12 +16,12 @@ webpush.setVapidDetails(
 // This is the same output of calling JSON.stringify on a PushSubscription
 const pushSubscription = {
   endpoint:
-    "https://fcm.googleapis.com/fcm/send/cKdJWNMj528:APA91bE7_SQw7DUE98PKOO4qWsryC2a-66TnaTMvK_srrHXN4ANdIKl_m4AlyuZ3jHP2136fyfO_TAqo-JfSD1cqTXmvuH_DjM0GpumduUfK6dNsTvP6J2cLDLqThXE-A-bmYIet9rt5",
+    "https://fcm.googleapis.com/fcm/send/eLPPV9H4Xqs:APA91bHHVcq1nbZK7EjF-BWbmctBxowB6ct5K1VJyOqliGQgambXTWw7p_cdCYoN_AX0jBnnQ9XwIC8-f7b6QbyfePHC8NZ16qc29vO4mkoFUAevoU_clWXy0cU8BWt4pd5V6a7FgLLH",
   expirationTime: null,
   keys: {
     p256dh:
-      "BGIxiQPIiJ81ei0mJ_a6oYktBJeZwp6HhUwwRp486K03E5nosWWtuCV6CGRLpXTLV1Qu3v6K3kko7GVNuR3DcJw",
-    auth: "0ZroUiFlTj-YcTVtMxooZQ",
+      "BNiYSNWGcTdxek37qzP1ZMQVRnJaDImz-DirIGe4cbty-KBc0TX2iyoDky34KXvCfxZbIsfKBmP3Cylp2jBQYaU",
+    auth: "QyreTnARIE8JK4YbfxsJ7Q",
   },
 };
 
