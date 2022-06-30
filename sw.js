@@ -11,7 +11,7 @@ self.addEventListener("push", function (e) {
       {
         action: "explore",
         title: "Explore this new world",
-        icon: "images/test.png",
+        icon: "images/checkmark.png",
       },
       {
         action: "close",
